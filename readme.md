@@ -83,6 +83,7 @@
 ## 修改关联的远程仓库地址
 - git remote rm origin (删除原来的地址)
 - git remote add origin 你的ssh地址 (修改关联的地址)
+- 修改完关联之后还得执行 git push -u origin master (把原来的地址删了，要重新设置一下)
 
 ## 更新代码
 - 确保自己的工作区的代码先提交到本地仓库

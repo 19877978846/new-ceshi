@@ -77,6 +77,9 @@
 - git pull 先更新远程到本地
 - git push (提交到远程仓库，(默认提交到origin上的master分支))
 
+## 生成私钥
+- ssh-keygen -t rsa -C "你的邮箱地址"
+
 ## 修改关联的远程仓库地址
 - git remote rm origin (删除原来的地址)
 - git remote add origin 你的ssh地址 (修改关联的地址)
